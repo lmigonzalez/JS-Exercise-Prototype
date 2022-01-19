@@ -120,10 +120,10 @@ Baby.prototype.play = function(){
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. When this doesn't belong to a method represent the windows/ console object.
+  2. When use a dot to call a function the object before the dot is this.
+  3. When we create a constructor function the this keyword represent the keys for the Object we are creating.
+  4. If we use .call and .apply this is explicity defined.
 */
 
 
